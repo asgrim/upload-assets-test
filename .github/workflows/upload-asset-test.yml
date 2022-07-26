@@ -25,7 +25,7 @@ jobs:
           echo "Third" > test-3.txt
           ls -l
       - name: "Upload assets latest release"
-        uses: alexellis/upload-assets@0.2.2 # also tried 0.3.0
+        uses: alexellis/upload-assets@0.3.0 # also tried 0.2.2
         env:
           ACTIONS_STEP_DEBUG: true
           GITHUB_TOKEN: ${{ github.token }}
